@@ -41,7 +41,7 @@ function Contactanos() {
           
           <div className="texto-contacto">
 
-          <h2 className="titulo left">Elige lo mejor para tu Negocio!</h2>
+          <h2 className="titulo left tit-contacto">Elige lo mejor para tu Negocio!</h2>
           <p className="parrafo">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti molestias fugiat explicabo voluptates beatae ab excepturi laborum tempore! Labore natus culpa atque quis optio laborum ex veniam quasi quidem ad.
             Vel ratione quaerat magnam, velit dolores pariatur adipisci soluta accusamus assumenda? Vero tenetur accusantium ipsa in cum maxime facilis, nesciunt doloremque? Quisquam aliquid delectus perferendis quae quasi dolorum pariatur ea!
