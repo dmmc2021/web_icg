@@ -21,6 +21,7 @@ const BarNav = () => {
                     <Nav className="me-auto" style={{textAlign:"center"}} >
                         <Nav.Link href="#somos">Quienes somos</Nav.Link>
                         <Nav.Link href="#servicios">Servicios</Nav.Link>
+                        <Nav.Link href="#noticia-id">Noticias</Nav.Link>
                         <Nav.Link href="#contacto-id">Contacto</Nav.Link>
                         
                         <Nav.Link href="https://aula.institutolap.com/" target="_blank">Aula virtual</Nav.Link>
@@ -36,6 +37,9 @@ const BarNav = () => {
         </li>
         <li>
           <a href="#servicios">Servcios</a>
+        </li>
+        <li>
+          <a href="#noticia-id">Noticias</a>
         </li>
         <li>
           <a href="#contacto-id">Contacto</a>
