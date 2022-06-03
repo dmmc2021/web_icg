@@ -193,12 +193,16 @@ a {
 .cta {
   display: inline-block;
   text-decoration: none;
-  background: #77104c;
   padding: 12px 15px;
   border-radius: 8px;
   color: white;
-  
+  background:#974876 ;
 }
+
+#icg-info > div.section1 > div > input:hover{
+  background: #77104c;
+}
+
 
 .btn-imp{
   display: flex;
@@ -221,7 +225,11 @@ a {
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM ICGINFO MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 
 .icg_info{
-  height: 300px;
+  height: 400px;
+}
+
+#root > div:nth-child(4) > div.flex_a.icg_info > div.section1 > h3{
+ margin-left: 0;
 }
 
 .image1 > img{
@@ -231,16 +239,128 @@ a {
 .section1{
   width: 600px;
   text-align: justify;
-  padding-top: 50px;
- 
+  font-size: 1.2em;
 }
 
-.section1 > h3{
+#root > div:nth-child(4) > div.flex_a.icg_info > div.section1 > article{
+  padding-top: 30px;
+  color: #77104c;
+}
+
+#root > div:nth-child(4){
+  background: #eeeaea;
+}
+
+.icg_info > .section1 > h3{
+  color: #77104c;
+}
+
+#root > div:nth-child(4) > div.flex_a.icg_info > div.section1 > div > input{
+  margin-top: 35px;
+}
+
+.imagen_1 > img{
+  width: 400px;
+}
+
+.image1 > img{
+  border-radius: 15px;
+}
+
+
+#root > div:nth-child(4) > div.flex_a.icg_info > div.image1.imagen_1{
+  margin-left: -100px;
+  margin-top: 50px;
+}
+
+.conocenos{
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.conocenos > h3{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.conocenos > p{
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+#centrado{
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.icono {
+  font-size: 40px;
+  color: rgb(16, 69, 102);
+  margin: 20px auto;
+}
+
+.card1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM SERVICIOS MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
+#servicios > h2{
+  margin-bottom: 50px;
+  color: #77104c;
+}
+
+.content-servicios > h2, h3{
+  color: #1c0f92;
+  margin-left: 7%;
+}
+
+.section1 > ul > li{
+  list-style: none;
+  font-weight: bold;
+  color: #7e74d8;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.section1 > ul > li:hover{
+  cursor: pointer;
   color: #1c0f92;
 }
 
+.image1{
+  margin-left: 20%;
+}
 
+.section1 > h3{
+  margin-left: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+#root > div.content-servicios > div > div:nth-child(1) > div > img{
+  height: 235px;
+}
+
+#root > div.content-servicios > div > div:nth-child(3) > div > img{
+  height: 235px;
+}
+
+.card1 > ul > li{
+  text-align: left;
+}
+
+body > div.fade.modal.show > div > div > div.modal-body > div > article > p > strong > ul > li{
+  text-align: left;
+}
+
+body > div.fade.modal.show > div > div > div.modal-body > div > article > p > strong{
+  text-align: justify;
+}
 
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM SOMOS MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
 
@@ -254,9 +374,26 @@ a {
   background-color:#eeeaea;
 }
 
+.somos_body{
+  background: #eeeaea;
+}
+
 .somos_title{
-  margin-left: 170px;
+  display: flex;
+  margin-left: 11%;
   color: #77104c;
+}
+
+.somos_title > h3{
+  width: 30%;
+  margin-left: -35px;
+  color: #77104c;
+}
+
+.somos_title > p{
+  width: 50%;
+  text-align: justify;
+  font-size: 1.2em;
 }
 
 .flex_a{
@@ -264,13 +401,14 @@ a {
   justify-content: space-around;
 }
 
-#root > div:nth-child(4){
-  background: 
-}
-
-#root > div:nth-child(5){
+#root > div:nth-child(7){
   background: #eeeaea;
 }
+
+#root > div:nth-child(8) > div.flex_a{
+  background: #eeeaea;
+}
+
 
 .carreaux_presentation_light_1
 {
@@ -289,7 +427,7 @@ a {
   background-size:cover;
   overflow: hidden;
   position: relative;
-  background-image: url("../img/business-woman.png");
+  background-image: url("../img/JOSE-GRASSO-1.jpg");
 }
 
 .carreaux_presentation_light_3
@@ -304,7 +442,7 @@ a {
 
 .pure_css{
   padding:5px; 
-  color:#1c0f92; 
+  color:#77104c; 
   font-weight:bold; 
   font-size:15px; 
   font-family:'Roboto';
@@ -320,12 +458,16 @@ a {
   text-decoration:none;
 }
 
-.wifeo{
-  color:#1c0f92; 
+.quienes{
+  color:#77104c; 
   font-weight:300; 
   font-size:20px; 
   font-family:'Roboto';
   text-align: center;
+}
+
+.quienes:hover{
+  cursor: pointer;
 }
 
 .carreaux_presentation_light_1 .shadow_swhow_mini, .carreaux_presentation_light_2 .shadow_swhow_mini, .carreaux_presentation_light_3 .shadow_swhow_mini
@@ -359,7 +501,7 @@ a {
 }
 .carreaux_presentation_light_1:hover .deroul_titre, .carreaux_presentation_light_2:hover .deroul_titre, .carreaux_presentation_light_3:hover .deroul_titre
 {
-  background-color:#1c0f92; left:0px;
+  background-color:#77104c; left:0px;
   
 }
 .carreaux_presentation_light_1 .deroul_soustitre, .carreaux_presentation_light_2 .deroul_soustitre, .carreaux_presentation_light_3 .deroul_soustitre
@@ -380,7 +522,7 @@ a {
 }
 .carreaux_presentation_light_1:hover .deroul_soustitre, .carreaux_presentation_light_2:hover .deroul_soustitre, .carreaux_presentation_light_3:hover .deroul_soustitre
 {
-  background-color:#77104c;right:0px;
+  background-color:#d686b5;right:0px;
 }
 
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMCATALOGOMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
@@ -517,6 +659,13 @@ nav {
   flex-direction: column;
 }
 
+#title-modal-news > img{
+  margin-right: 320px;
+}
+
+#title-modal-news{
+  color: #1c0f92;
+}
 
 .noticia-ddia {
   margin-top: 20px;
@@ -556,10 +705,30 @@ nav {
 }
 
 #example-custom-modal-styling-title > img{
-  margin-right: 300px;
+  margin-right: 100px;
+}
+
+.title-des > img{
+  margin-right: 50px;
+}
+
+.title-des{
+  color: #1c0f92;
+}
+
+#title-plus > img{
+  margin-right: 50px;
+}
+
+#title-plus{
+  color: #1c0f92;
 }
 
 #example-custom-modal-styling-title{
+  color: #1c0f92;
+}
+
+.tit-noticia{
   color: #1c0f92;
 }
 
@@ -830,6 +999,10 @@ footer {
   justify-content: center;
 }
 
+#contacto-id > div.boton-contacto > input:hover{
+  background: #77104c;
+}
+
 /*.form{
      display: flex;
      flex-wrap: wrap;
@@ -964,6 +1137,10 @@ input[type="submit"]:hover {
 
 select > option {
   color: #1c0f92;
+}
+
+.tit-contacto{
+  color: #77104c;
 }
 
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMSOCIALMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
