@@ -37,7 +37,7 @@ export default (props) => {
     <>
       <section className="info-last" id="noticia-id">
         <div className="contenedor">
-          <h2 className="titulo">NOTICIAS</h2>
+          <h2 className="titulo tit-noticia">NOTICIAS</h2>
           <div className="navigation-wrapper">
             <div ref={sliderRef} className="keen-slider">
               {props.noticias.map((noticia, index) => (
@@ -73,8 +73,8 @@ export default (props) => {
                   centered
                 >
                   <Modal.Header closeButton>
-                    <Modal.Title id="example-custom-modal-styling-title" style={{fontSize:"1.8em"}}>
-                    <img src={icglogo} alt="icglogo" width="100px" margin-right="200px"/>NOTICIA DEL DIA
+                    <Modal.Title id="title-modal-news" style={{fontSize:"1.8em"}}>
+                    <img src={icglogo} alt="icglogo" width="100px"/>NOTICIA DEL DIA
                     </Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
