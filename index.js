@@ -7,6 +7,7 @@ import Social from "./components/Social/Social.jsx";
 import UpScroll from "./components/UpScroll/UpScroll.jsx";
 import Somos from "./components/Somos/Somos.jsx";
 import IcgInfo from "./components/IcgInfo/IcgInfo.jsx";
+import Servicios from "./components/Servicios/Servicios.jsx";
 
 import "./css/estilo.css";
 import "./css/bootstrap.min.css";
@@ -21,6 +22,7 @@ ReactDOM.render(
     <UpScroll />,
     <Header />,
     <IcgInfo/>,
+    <Servicios/>,
     <Somos/>,
     <Container />,
     <Contactanos />,
