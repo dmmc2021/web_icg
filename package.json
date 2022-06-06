@@ -2,7 +2,7 @@
   "name": "instilap",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dmmc2021.github.io/web_icg/",
+  "homepage": "https://dmmc2021.github.io/web_icg",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
